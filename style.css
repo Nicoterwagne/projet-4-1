@@ -532,8 +532,9 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: space-around;
 }
 
 a[data-lightbox]:hover::before {
@@ -1041,4 +1042,19 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.text-intro {
+    font-size: 24px;
+}
+
+.text-description {
+    font-size: 20px;
+    line-height: 22px;
+
+}
+
+.text-pdg {
+    margin-top: -5px;
+    font-size: 17px;
 }
